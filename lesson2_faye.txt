@@ -1,0 +1,19 @@
+#While loops and functions
+
+run = True
+count = 0
+while run:
+    print(count)
+    if count >= 5:
+        run = False
+    count+= 1
+
+def test_function(variable1, variable2):
+    if variable1 < 5:
+        print(variable1)
+    if variable1 < variable2:
+        print('this is fun')
+        return variable1 + variable2
+test_variable = test_function(3, 2)
+print(test_variable)
+
